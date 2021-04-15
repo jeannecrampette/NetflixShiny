@@ -1,4 +1,3 @@
-setwd("~/Desktop/Netflix_app")
 library(readr)
 library(shiny)
 library(ggplot2)
