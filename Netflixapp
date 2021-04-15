@@ -1,6 +1,7 @@
 setwd("~/Desktop/Netflix_app")
 library(readr)
 library(shiny)
+library(ggplot2)
 NetflixViewingHistory <- read_csv("NetflixViewingHistory.csv", 
                                    col_types = cols(Date = col_date(format = "%d/%m/%Y")))
 
